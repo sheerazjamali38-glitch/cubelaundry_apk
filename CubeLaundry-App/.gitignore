@@ -1,0 +1,18 @@
+# Android
+*.iml
+*.class
+*.apk
+*.aab
+*.dex
+*.log
+local.properties
+.DS_Store
+build/
+.gradle/
+.idea/
+app/build/
+app/release/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
