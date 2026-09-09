@@ -19,9 +19,9 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.4"
-    }
+   composeOptions {
+    kotlinCompilerExtensionVersion = "1.5.8"
+}
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
