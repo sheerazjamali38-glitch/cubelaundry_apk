@@ -24,11 +24,11 @@ fun HomeScreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Image(
-            painter = painterResource(id = R.mipmap.ic_launcher),
-            contentDescription = "Cube Laundry Logo",
-            modifier = Modifier.size(120.dp)
-        )
+Image(
+    painter = painterResource(id = R.drawable.ic_launcher_foreground),
+    contentDescription = "Cube Laundry Logo",
+    modifier = Modifier.size(120.dp)
+)
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = "Cube Laundry",
